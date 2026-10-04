@@ -1,0 +1,61 @@
+.panel {
+  padding: 16px;
+  background: #fff;
+  border-right: 1px solid #e5e7eb;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.title {
+  margin: 0 0 12px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.chipGroup {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip {
+  padding: 8px 14px;
+  border: 1px solid #d1d5db;
+  border-radius: 9999px;
+  background: white;
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.chip:hover {
+  border-color: #9ca3af;
+}
+
+.chip.active {
+  background: #2563eb;
+  border-color: #2563eb;
+  color: white;
+}
+
+.clear {
+  margin-top: 16px;
+  padding: 8px 16px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  background: white;
+  font-size: 13px;
+  color: #374151;
+  cursor: pointer;
+}
+
+.clear:hover {
+  background: #f9fafb;
+}
+
+.count {
+  margin-top: 16px;
+  font-size: 13px;
+  color: #6b7280;
+}
