@@ -1,0 +1,41 @@
+.container {
+  height: 100%;
+  overflow: auto;
+  background: #fff;
+}
+
+.skeletonContainer {
+  padding: 16px;
+}
+
+.error {
+  padding: 24px;
+  text-align: center;
+  color: #dc2626;
+  background: #fef2f2;
+  border-radius: 8px;
+  margin: 16px;
+}
+
+.retryBtn {
+  margin-left: 12px;
+  padding: 6px 12px;
+  background: #dc2626;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.empty {
+  padding: 48px;
+  text-align: center;
+  color: #6b7280;
+}
+
+.loadingMore {
+  padding: 16px;
+  text-align: center;
+  color: #6b7280;
+  font-size: 14px;
+}
